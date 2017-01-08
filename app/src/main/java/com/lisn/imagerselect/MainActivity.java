@@ -6,12 +6,16 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
@@ -39,6 +43,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ImageLoader imageLoader = ImageLoader.getInstance();
         imageLoader.init(ImageLoaderConfiguration.createDefault(MainActivity.this));
         initView();
+
+
     }
 
     private void initView() {
@@ -75,7 +81,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 ArrayList<String> imageByPath = IMageGV.getImageByPath();
                 Log.e("----", "onClick: "+imageByPath.toString() );
 
+//                Intent uploadService = new Intent(MainActivity.this, UploadService.class);
+//                startService(uploadService);
+
+                new upLoadThread().start();
                 break;
+        }
+    }
+
+    /**
+     * 死循环发送消息
+     */
+    private class upLoadThread extends Thread {
+        @Override
+        public void run() {
+            super.run();
+            Looper.prepare();
+            Handler handler=new Handler(){
+                @Override
+                public void handleMessage(Message msg) {
+                    super.handleMessage(msg);
+                    Log.e("---", "handleMessage: -----" );
+                    Toast.makeText(getApplicationContext(), "handler msg", Toast.LENGTH_LONG).show();
+                    sendEmptyMessage(1);
+                    sendEmptyMessageDelayed(1,50000000);
+                }
+            };
+
+            handler.sendEmptyMessage(1);
+            Looper.loop();
         }
     }
 
