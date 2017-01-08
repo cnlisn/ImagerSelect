@@ -9,6 +9,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.os.SystemClock;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -103,8 +104,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     super.handleMessage(msg);
                     Log.e("---", "handleMessage: -----" );
                     Toast.makeText(getApplicationContext(), "handler msg", Toast.LENGTH_LONG).show();
-                    sendEmptyMessage(1);
-                    sendEmptyMessageDelayed(1,50000000);
+                    sendEmptyMessageDelayed(1,50000);
+
+//                    SystemClock.sleep(30000);
                 }
             };
 
