@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">机动车移动执法</string>
+    <string name="folder_all">All Images</string>
+    <string name="preview">Preview</string>
+    <string name="msg_no_camera">No system camera found</string>
+    <string name="msg_amount_limit">Select images amount is limit</string>
+    <string name="action_done">Done</string>
+    <string name="photo_unit">Shot</string>
+    <string name="tip_take_photo">Take photo</string>
+    <string name="tip_take_video">Take video</string>
+</resources>

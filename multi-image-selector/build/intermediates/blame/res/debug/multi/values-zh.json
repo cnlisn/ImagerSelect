@@ -1,0 +1,178 @@
+[
+    {
+        "outputFile": "D:\\Demo\\17_1_5\\ImagerSelect\\multi-image-selector\\build\\intermediates\\res\\merged\\debug\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 42,
+                    "endOffset": 93
+                },
+                "from": {
+                    "file": "D:\\Demo\\17_1_5\\ImagerSelect\\multi-image-selector\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 249,
+                        "endColumn": 42,
+                        "endOffset": 287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 98,
+                    "endColumn": 44,
+                    "endOffset": 138
+                },
+                "from": {
+                    "file": "D:\\Demo\\17_1_5\\ImagerSelect\\multi-image-selector\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 44,
+                        "endOffset": 56
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 143,
+                    "endColumn": 43,
+                    "endOffset": 182
+                },
+                "from": {
+                    "file": "D:\\Demo\\17_1_5\\ImagerSelect\\multi-image-selector\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 61,
+                        "endColumn": 43,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 187,
+                    "endColumn": 55,
+                    "endOffset": 238
+                },
+                "from": {
+                    "file": "D:\\Demo\\17_1_5\\ImagerSelect\\multi-image-selector\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 193,
+                        "endColumn": 55,
+                        "endOffset": 244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 243,
+                    "endColumn": 48,
+                    "endOffset": 287
+                },
+                "from": {
+                    "file": "D:\\Demo\\17_1_5\\ImagerSelect\\multi-image-selector\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 144,
+                        "endColumn": 48,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 292,
+                    "endColumn": 40,
+                    "endOffset": 328
+                },
+                "from": {
+                    "file": "D:\\Demo\\17_1_5\\ImagerSelect\\multi-image-selector\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 40,
+                        "endOffset": 328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 333,
+                    "endColumn": 38,
+                    "endOffset": 367
+                },
+                "from": {
+                    "file": "D:\\Demo\\17_1_5\\ImagerSelect\\multi-image-selector\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 38,
+                        "endOffset": 139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 372,
+                    "endColumn": 47,
+                    "endOffset": 415
+                },
+                "from": {
+                    "file": "D:\\Demo\\17_1_5\\ImagerSelect\\multi-image-selector\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 333,
+                        "endColumn": 47,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 420,
+                    "endColumn": 47,
+                    "endOffset": 463
+                },
+                "from": {
+                    "file": "D:\\Demo\\17_1_5\\ImagerSelect\\multi-image-selector\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 381,
+                        "endColumn": 47,
+                        "endOffset": 424
+                    }
+                }
+            }
+        ]
+    }
+]
